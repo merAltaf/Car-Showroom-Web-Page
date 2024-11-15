@@ -1,0 +1,29 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Linux system files
+*.swp
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore node_modules (if you add any Node.js dependencies later)
+node_modules/
+
+# Ignore build/output folders (if you add build steps later)
+dist/
+build/
+
+# Ignore environment variable files (if you add any for configuration)
+.env
+.env.local
+.env.*.local
+
+# Ignore any Tailwind cache files (if used)
+.tailwindcache
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
